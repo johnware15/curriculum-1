@@ -1,3 +1,147 @@
-/*
- * Write your CSS here
- */
+nav {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+}
+
+ul {
+  background-color: white;
+
+  list-style-type: none;
+  /*justify-content: space-between;*/
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  /*margin: auto;*/
+  padding-left: 155px:
+  align-self: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+li {
+  float: left;
+  padding-right: 20px;
+  display: inline;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  flex-grow: 0;
+}
+
+/*body {
+  background-image: url("https://img.trycaviar.com/x7pgux2UGo3J3wY_QrD3lITEmnk=/1680x1120/https://s3.amazonaws.com/trycaviar.com/offers/151/9049.jpg");
+  background-size: cover;
+  max-width: 80%;
+}*/
+
+.head-elements {
+  text-align: center;
+  background-color: white;
+
+}
+
+.caviar {
+  margin-left: 450px;
+  margin-right: 450px;
+  color: red;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.banner-text {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 120px;
+  align: center;
+  text-indent: 90px;
+  margin-top: -200px;
+  color: white;
+  font-family: sans-serif;
+}
+
+img.banner-img {
+  padding-top: 10px;
+  display: block;
+
+  min-width: 100%;
+  position: inherit;
+  object-fit: contain;
+  border-top: -60px;
+  overflow: hidden;
+}
+
+.banner-img {
+  /*border-bottom: solid white -60px;*/
+}
+
+button {
+  width: 150px;
+  float: left;
+  align-items: center;
+
+}
+
+.delivery-hours-order {
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: right;
+}
+
+.start-group-order {
+  display: inline-flex;
+  justify-content: center;
+  float: right;
+}
+
+button.p {
+  padding-left: 8px;
+  text-align: right;
+}
+
+.delivery {
+  flex-direction: column;
+  text-align: left;
+  align-content: flex-start;
+  font-family: sans-serif;
+
+}
+
+.delivery-hours-order {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+}
+
+.menu-item > .menu-data {
+  width: 350px;
+  background-color: pink;
+  margin: 110px;
+  padding: 20px;
+}
+
+p.description {
+  word-wrap: break-word;
+  width: 68%;
+  border: 1px solid red !important;
+}
+
+.menu-title {
+  margin-bottom: -75px;
+  padding-left: 150px;
+  border-top: 2px solid blue;
+}
+
+.menu-item {
+
+}
+
+.special-message {
+  text-align: center;
+}
